@@ -1,0 +1,95 @@
+body {
+    font-family: "Karma", sans-serif;
+}
+
+.header {
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    font-size: 1.6rem;
+    box-shadow: 0 0 10px #ccc;
+}
+
+.nav-icon:hover {
+    background-color: #ccc;
+    cursor: pointer;
+}
+
+.subnav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background-color: #fff;
+    z-index: 100;
+    box-shadow: 0 0 10px #ccc;
+    min-width: 30%;
+    display: none;
+    animation: FadeOut ease-in-out 0.4s;
+}
+
+.subnav-list {
+    list-style: none;
+    padding: 0;
+}
+
+.subnav-item {
+    font-size: 1.6rem;
+}
+
+.subnav-item:hover {
+    background-color: #ccc;
+    cursor: pointer;
+}
+
+.tab-content {
+    margin-top: 70px;
+}
+
+.text {
+    font-size: 1.5rem;
+    letter-spacing: 1.6;
+}
+p.text {
+    font-size: 0.9rem;
+}
+
+.pagniation-list {
+    list-style: none;
+}
+
+.btn:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+.about-img {
+    width: 80%;
+    height: 80%;
+}
+
+.popular-btn {
+    background-color: #616161;
+    color: #fff;
+    font-size: 0.7rem;
+    padding-inline: 6px;
+}
+.list-place {
+    flex-wrap: wrap;
+}
+
+.blog-img {
+    width: 50px;
+    height: 50px;
+}
+
+@keyframes FadeOut {
+    0% {
+        transform: translateX(-200%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
